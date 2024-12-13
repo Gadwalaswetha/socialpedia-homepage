@@ -20,3 +20,14 @@ React Router for navigation (if needed in the future)
 Others:
 
 Background video implemented with HTML5 
+Folder Structure
+src/
+App.js — Main component that renders the entire app.
+App.css — Styles for the components.
+Navbar.js — Navigation bar component.
+HeroSection.js — Hero section with rotating text.
+FeaturedProducts.js — Displays the featured stones.
+Premium.js — Lists the stone variants.
+OurClients.js — Section for displaying client testimonials.
+Video.js — Component for background video.
+Footer.js — Footer component with links and social media.
