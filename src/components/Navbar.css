@@ -1,0 +1,84 @@
+.contact-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.contact-button:hover {
+  background-color: #0056b3;
+}
+
+.contact-details {
+  margin-top: 10px;
+  background-color: #f9f9f9;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  position: absolute;
+  right: 20px;
+  top: 60px;
+  z-index: 10;
+}
+
+.contact-details h3 {
+  margin: 0 0 10px;
+  font-size: 16px;
+}
+
+.contact-details p {
+  margin: 5px 0;
+  color: #333;
+  font-size: 14px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 3rem;
+  background-color: #f8f8f8;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar .logo {
+  font-family: "Playfair Display", serif;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #2f4f4f;
+}
+
+.navbar .nav-links {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+.navbar .nav-links li a {
+  text-decoration: none;
+
+  font-size: 1rem;
+  color: #2f4f4f;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.navbar .nav-links li a:hover {
+  color: #1abc9c;
+}
+.image {
+  height: 50px;
+}
+.search-bar {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}

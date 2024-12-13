@@ -1,0 +1,33 @@
+.hero-section {
+  background-image: url("https://tse2.mm.bing.net/th?id=OIP._SjZWYnQ-XpobL-ZMSwMeAHaDt&pid=Api&P=0&h=180");
+  color: rgb(242, 244, 243);
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.animated-text {
+  font-size: 2rem;
+  font-weight: bold;
+  animation: fade-in-out 5s infinite;
+}
+
+@keyframes fade-in-out {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}

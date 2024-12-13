@@ -1,0 +1,17 @@
+/* CSS to make the video cover the entire background */
+.video-container {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* Full viewport height */
+  overflow: hidden; /* Hide anything that overflows */
+}
+
+.background-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensure the video covers the entire container without distortion */
+  z-index: -1; /* Make sure the video stays behind the content */
+}
